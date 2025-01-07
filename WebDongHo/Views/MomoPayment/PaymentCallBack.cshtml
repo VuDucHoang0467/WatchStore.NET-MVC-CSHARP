@@ -1,0 +1,23 @@
+﻿@model WebDongHo.Models.Momo.MomoExecuteResponseModel
+
+@{
+    ViewData["Title"] = "Home Page";
+    var postUrl = "tich-hop-thanh-toan-momo-voi-asp-net-core-7d5e4hP";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cảm ơn bạn đã mua hàng ở Time's Ticking</h1>
+    <p>Tiếp tục mua đồng hồ ở <a asp-action="Index" asp-controller="Home">Time's Ticking</a>.</p>
+    <div class="container">
+        <h1 class="text-success">Thanh Toán Thành Công</h1>
+        <p>Mã đơn hàng: <strong>@Model.OrderId</strong></p>
+        <p>Tổng tiền: <strong>@Model.Amount</strong></p>
+        <p>Thông tin đơn hàng: <strong>@Model.OrderInfo</strong></p>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+    });
+</script>

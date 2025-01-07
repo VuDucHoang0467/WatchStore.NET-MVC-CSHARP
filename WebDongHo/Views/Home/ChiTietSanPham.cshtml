@@ -1,0 +1,311 @@
+﻿@model WebDongHo.Models.Product
+@{
+    ViewData["Title"] = "ChiTietSanPham";
+    Layout = "~/Views/Shared/_LayoutProductDetails.cshtml";
+    int numOfQuantity = 1;
+}
+
+<!-- Product Details Section Begin -->
+<section class="product-details spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="product__details__pic">
+                    <div class="product__details__pic__item">
+                        <img class="product__details__pic__item--large"
+                             src="@Url.Content("../SLayoutWatch/img/" + Model.Image)" alt="">
+                    </div>
+                    <div class="product__details__pic__slider owl-carousel">
+                        @foreach(var image in ViewBag.anhSanPham)
+                        {
+                            <img data-imgbigurl="@Url.Content("../SLayoutWatch/img/anhsanpham/" + image.Url)"
+                                 src="@Url.Content("../SLayoutWatch/img/anhsanpham/" + image.Url)" alt="">
+                        }                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="product__details__text">
+                    <h3>@Model.Name</h3>
+                    <div class="product__details__rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <span>(18 reviews)</span>
+                    </div>
+                    <div class="product__details__price">@string.Format("{0:N0}", @Model.Price) VNĐ</div>
+                    <p>
+                        @Model.Description
+                    </p>
+                    <form method="post" asp-action="AddToCart" asp-controller="ShoppingCart" asp-route-productId="@Model.ProductId" asp-route-quantity="@numOfQuantity")">
+                        <input type="hidden" name="productId" value="@Model.ProductId" />
+                        <div class="product__details__quantity">
+                        </div>
+                        <button type="submit" class="primary-btn">ADD TO CART</button>
+                    </form>
+                    <ul>
+                        <li>
+                            <b>Availability</b> <span class="product-available">
+                                @(Model.StockQuantity > 0 ? "In Stock" : "Out of Stock")
+                            </span>
+                        </li>
+                        <li><b>Shipping</b> <span>01 day shipping. <samp>Free pickup today</samp></span></li>
+                        <li><b>Weight</b> <span>0.5 kg</span></li>
+                        <li><a asp-action="Customize" asp-controller="Custom" asp-route-productId="@Model.ProductId">Customize this watch</a></li>
+                        <li>
+                            <b>Share on</b>
+                            <div class="share">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="product__details__tab">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
+                               aria-selected="true">Description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"
+                               aria-selected="false">Information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab"
+                               aria-selected="false">Reviews <span>(1)</span></a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                            <div class="product__details__tab__desc">
+                                <h6>Products Infomation</h6>
+                                <p>
+                                    @Model.Description
+                                </p>
+                                <p>
+                                    @Model.Description
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-2" role="tabpanel">
+                            <div class="product__details__tab__desc">
+                                <h6>Products Infomation</h6>
+                                <p>
+                                    @Model.Description
+                                </p>
+                                <p>
+                                    @Model.Description
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-3" role="tabpanel">
+                            <div class="product__details__tab__desc">
+                                <h6>Products Infomation</h6>
+                                <p>
+                                    @Model.Description
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Tạo một hộp chứa cho form đánh giá */
+    .review-form {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        width: 1200px;
+    }
+
+    /* Căn chỉnh đánh giá sao ngang */
+    .rating {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse; /* Đảo ngược hướng của sao */
+    }
+
+    /* Ẩn input radio mặc định */
+    input[type="radio"] {
+        display: none;
+    }
+
+    /* Tùy chỉnh style cho label và icon sao */
+    label {
+        cursor: pointer;
+        padding: 5px;
+    }
+
+        label::before {
+            content: '\2605';
+            font-size: 36px; /* Kích thước icon sao */
+            color: grey;
+        }
+
+    input[type="radio"]:checked ~ label::before {
+        color: gold;
+    }
+
+    /* Thiết lập style cho textarea */
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: vertical; /* Cho phép điều chỉnh chiều cao dọc */
+    }
+
+    /* Thiết lập style cho nút gửi đánh giá */
+    .reviewbtn[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff; /* Màu nền của nút */
+        color: #fff; /* Màu chữ */
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3; /* Màu nền của nút khi hover */
+        }
+
+    /* Thiết lập style cho thông báo lỗi */
+    .error-message {
+        color: red;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    /* Phần đánh giá */
+    .ratingsection {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 10px 0;
+        justify-content: center;
+    }
+
+        .ratingsection li {
+            margin-right: 5px;
+        }
+
+        .ratingsection i {
+            font-size: 24px;
+            color: #ffd700; /* Màu của sao đầy */
+            transition: color 0.3s; /* Hiệu ứng hover */
+        }
+
+            .ratingsection i:hover,
+            .ratingsection i:hover ~ i {
+                color: #ffbb00; /* Màu khi hover */
+            }
+
+    .review {
+        border: 1px solid #eee;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+        .review p {
+            margin: 5px 0;
+        }
+
+        .review .rating {
+            margin-bottom: 10px;
+</style>
+
+<div class="review-form">
+    <form asp-controller="Home" asp-action="AddReview" method="post">
+        <input type="hidden" name="productId" value="@Model.ProductId" />
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+        </div>
+        <textarea name="reviewText" placeholder="Viết đánh giá của bạn ở đây..." required></textarea>
+        <button class="reviewbtn" type="submit">Submit Review</button>
+        @if (ViewData["ErrorMessage"] != null)
+        {
+            <div class="error-message">@ViewData["ErrorMessage"]</div>
+        }
+    </form>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h3>Đánh giá sản phẩm:</h3>
+            @if (ViewBag.Reviews != null && ViewBag.Reviews.Count > 0)
+            {
+                @foreach (var review in ViewBag.Reviews)
+                {
+                    <div class="review">
+                        
+                        <ul class="ratingsection">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                <li><i class="fa fa-star@(i <= review.Rating ? "" : "-o")"></i></li>
+                            }
+                        </ul>
+                        @{
+                            var atIndex = review.Email.IndexOf("@");
+                            var namePart = review.Email.Substring(0, atIndex);
+                            var maskedName = namePart.Substring(0, Math.Min(6, namePart.Length)) + new string('x', namePart.Length - Math.Min(6, namePart.Length));
+                            var domain = review.Email.Substring(atIndex);
+                        }
+                        <p>@maskedName@domain</p>
+                        <p>@review.ReviewDate</p>
+                        <p>@review.ReviewText</p>
+                    </div>
+                    @if (!string.IsNullOrEmpty(review.AdminResponse))
+                    {
+                        <div class="admin-reply">
+                            <p><strong>Admin</strong></p>                            
+                            @if (review.AdminResponseDate != null)
+                            {
+                                <p>@review.AdminResponseDate</p>
+                            }
+                            <p>@review.AdminResponse</p>
+                        </div>
+                    }
+                    @if (Context.Session.GetInt32("RoleId") == 1)
+                    {
+                        <div class="admin-reply-form">
+                            <form asp-controller="Home" asp-action="AddAdminResponse" method="post">
+                                <input type="hidden" name="reviewId" value="@review.Id" />
+                                <textarea name="adminResponse" placeholder="Phản hồi của admin"></textarea>
+                                <button class="replybtn" type="submit">Reply</button>
+                            </form>
+                        </div>
+                    }
+                }
+            }
+            else
+            {
+                <p>Chưa có đánh giá.</p>
+            }
+        </div>
+    </div>
+</div>
+

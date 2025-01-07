@@ -1,0 +1,94 @@
+﻿@using WebDongHo.Models;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<ProductReview>
+
+@{
+    ViewData["Title"] = "DanhMucDanhGia";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h2>Danh Mục Đánh Giá</h2>
+
+<table class="table">
+    <thead>
+        <tr class="table-warning">
+            <th>
+                Mã đánh giá
+            </th>
+            <th>
+                Tên sản phẩm
+            </th>
+            <th>
+                Mã người dùng
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Số sao
+            </th>
+            <th>
+                Nội dung
+            </th>
+            <th>
+                Ngày đánh giá
+            </th>
+            <th>Trạng thái</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="table-success">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rating)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReviewText)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReviewDate)
+                </td>
+                <td>
+                    <a asp-action="XemChiTietDonHang" asp-route-orderId="@item.Id">Details</a> |
+                    <a asp-action="XoaDonHang" asp-route-orderId="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="pagination-container">
+    <ul class="pagination">
+        @if (Model.HasPreviousPage)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("DanhMucDanhGia", new { page = Model.PageNumber - 1 })">Previous</a>
+            </li>
+        }
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("DanhMucDanhGia", new { page = i })">@i</a>
+            </li>
+        }
+        @if (Model.HasNextPage)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("DanhMucDanhGia", new { page = Model.PageNumber + 1 })">Next</a>
+            </li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,40 @@
+﻿@model WebDongHo.Models.ProductImage
+
+@{
+    ViewData["Title"] = "XoaAnhSanPham";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h1>Xóa ảnh sản phẩm </h1>
+
+<h3>Bạn có chắc chắn muốn xóa?</h3>
+<div>
+    <h4>Ảnh sản phẩm</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ProductId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProductId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Url)
+        </dt>
+        <dd class="col-sm-10">
+            <img src="/SLayoutWatch/img/anhsanpham/@Model.Url" alt="Product Image" style="max-width: 150px; max-height: 150px;" />
+        </dd>
+    </dl>
+
+    <form asp-action="XoaAnhSanPham" asp-route-pictureId="@Model.Id" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="DanhMucAnhSanPham" class="btn btn-secondary">Back to List</a>
+    </form>
+</div>

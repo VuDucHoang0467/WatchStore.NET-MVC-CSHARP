@@ -1,0 +1,239 @@
+﻿@model ShoppingCart
+@{
+    ViewData["Title"] = "Shopping Cart";
+    Layout = "~/Views/Shared/_LayoutCart.cshtml";
+}
+
+@{
+    decimal Total = Model.CalculateTotal();
+    decimal DiscountAmount = Model.CalculateDiscountAmount();
+    decimal NewTotal = Model.CalculateTotalAfterDiscount();
+    bool couponApplied = ViewData["CouponApplied"] != null && (bool)ViewData["CouponApplied"];
+    string couponError = ViewData["CouponError"] as string;
+}
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .shoping-cart {
+        padding: 60px 0;
+        background: #f8f9fa;
+    }
+
+    .shoping__cart__table {
+        margin-bottom: 30px;
+    }
+
+        .shoping__cart__table table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 0;
+        }
+
+        .shoping__cart__table th, .shoping__cart__table td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .shoping__cart__table th {
+            background-color: #007bff;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .shoping__cart__table td {
+            background-color: #fff;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+            .shoping__cart__table td form input[type="number"] {
+                width: 60px;
+                border: 1px solid #ced4da;
+                border-radius: 4px;
+                padding: 5px;
+                text-align: center;
+            }
+
+    .shoping__cart__btns .primary-btn {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border-radius: 4px;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+        .shoping__cart__btns .primary-btn:hover {
+            background-color: #0056b3;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .shoping__continue .shoping__discount {
+        margin-top: 20px;
+    }
+
+    .shoping__discount h5 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .shoping__discount input {
+        width: calc(100% - 130px);
+        display: inline-block;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 10px;
+    }
+
+    .shoping__discount .site-btn {
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+        border-radius: 4px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+        .shoping__discount .site-btn:hover {
+            background-color: #218838;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .shoping__checkout {
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+    }
+
+        .shoping__checkout h5 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .shoping__checkout ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .shoping__checkout ul li {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+
+                .shoping__checkout ul li span {
+                    font-weight: 600;
+                }
+
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        border-radius: 4px;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .alert {
+        margin-top: 1rem;
+        border-radius: 4px;
+    }
+</style>
+
+<section class="shoping-cart spad">
+    <div class="container">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shoping__cart__table">
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Items)
+                            {
+                                <tr>
+                                    <td>@item.Name</td>
+                                    <td>
+                                        <form asp-action="UpdateCartItem" asp-controller="ShoppingCart" method="post">
+                                            <input type="hidden" name="productId" value="@item.ProductId" />
+                                            <input type="number" name="quantity" value="@item.Quantity" onchange="this.form.submit()"  class="form-control"/>
+                                        </form>
+                                    </td>
+                                    <td>@String.Format("{0:N0} VNĐ", item.Price)</td>
+                                    <td>@String.Format("{0:N0} VNĐ", item.Price * item.Quantity)</td>
+                                    <td>
+                                        <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId" class="btn btn-danger">Remove</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shoping__cart__btns">
+                    <a asp-action="Index" asp-controller="Home" class="primary-btn cart-btn">CONTINUE SHOPPING</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="shoping__continue">
+                    <div class="shoping__discount">
+                        <h5>Discount Codes</h5>
+                        <form asp-action="ApplyCoupon" asp-controller="ShoppingCart" method="post">
+                            <input type="text" placeholder="Enter your coupon code" name="couponCode" class="form-control mb-2">
+                            <button type="submit" class="site-btn">APPLY COUPON</button>
+                            @if (TempData["CouponError"] != null)
+                            {
+                                <div class="alert alert-danger mt-2">@TempData["CouponError"]</div>
+                            }
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="shoping__checkout">
+                    <h5>Cart Total</h5>
+                    <ul>
+                        <li>Subtotal <span>@string.Format("{0:N0}", Total) VNĐ</span></li>
+                        @if (!string.IsNullOrEmpty(Model.CouponCode))
+                        {
+                            <li>Discount (@Model.CouponCode) <span>- @string.Format("{0:N0}", DiscountAmount) VNĐ</span></li>
+                        }
+                        <li>Total <span>@string.Format("{0:N0}", NewTotal) VNĐ</span></li>
+                    </ul>
+                    <a asp-action="Checkout" asp-controller="ShoppingCart" class="btn btn-primary">PROCEED TO CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

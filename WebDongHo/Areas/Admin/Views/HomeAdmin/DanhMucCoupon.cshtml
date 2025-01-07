@@ -1,0 +1,82 @@
+﻿@using WebDongHo.Models;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<DiscountCode>
+
+@{
+    ViewData["Title"] = "DanhMucCoupon";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h2>Danh Mục Mã Giảm Giá</h2>
+
+<p>
+    <a asp-action="ThemCoupon">Create New</a>
+</p>
+<p>
+    @TempData["Message"]
+</p>
+<table class="table">
+    <thead>
+        <tr class="table-warning">
+            <th>
+                Mã giảm giá
+            </th>
+            <th>
+                Phần trăm giảm giá 
+            </th>
+            <th>
+                Số lần sử dụng
+            </th>
+            <th>
+                Thời gian hết hạn
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="table-success">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DisPercentage)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UsageLimit)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExpiryDate)
+                </td>
+                <td>
+                    <a asp-action="SuaCoupon" asp-route-discountId="@item.Id">Edit</a> |
+                    <a asp-action="XemChiTietCoupon" asp-route-discountId="@item.Id">Details</a> |
+                    <a asp-action="XoaCoupon" asp-route-discountId="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="pagination-container">
+    <ul class="pagination">
+        @if (Model.HasPreviousPage)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("DanhMucCoupon", new { page = Model.PageNumber - 1 })">Previous</a>
+            </li>
+        }
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("DanhMucCoupon", new { page = i })">@i</a>
+            </li>
+        }
+        @if (Model.HasNextPage)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("DanhMucCoupon", new { page = Model.PageNumber + 1 })">Next</a>
+            </li>
+        }
+    </ul>
+</div>

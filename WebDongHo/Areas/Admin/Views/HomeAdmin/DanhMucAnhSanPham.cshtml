@@ -1,0 +1,76 @@
+﻿@using WebDongHo.Models;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<ProductImage>
+
+@{
+    ViewData["Title"] = "DanhMucAnhSanPham";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h2>Danh Mục ảnh sản phẩm</h2>
+
+<p>
+    <a asp-action="ThemAnhSanPham">Create New</a>
+</p>
+<p>
+    @TempData["Message"]
+</p>
+<table class="table">
+    <thead>
+        <tr class="table-warning">
+            <th>
+                Mã ảnh
+            </th>
+            <th>
+                Tên sản phẩm
+            </th>
+            <th>
+                Ảnh sản phẩm
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="table-success">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+                <td>
+                    <img src="/SLayoutWatch/img/anhsanpham/@item.Url" alt="Product Images" style="max-width: 150px; max-height: 150px;" />
+                </td>
+                <td>
+                    <a asp-action="SuaAnhSanPham" asp-route-pictureId="@item.Id">Edit</a> |
+                    <a asp-action="XemChiTietAnhSanPham" asp-route-pictureId="@item.Id">Details</a> |
+                    <a asp-action="XoaAnhSanPham" asp-route-pictureId="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="pagination-container">
+    <ul class="pagination">
+        @if (Model.HasPreviousPage)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("DanhMucAnhSanPham", new { page = Model.PageNumber - 1 })">Previous</a>
+            </li>
+        }
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("DanhMucAnhSanPham", new { page = i })">@i</a>
+            </li>
+        }
+        @if (Model.HasNextPage)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("DanhMucAnhSanPham", new { page = Model.PageNumber + 1 })">Next</a>
+            </li>
+        }
+    </ul>
+</div>

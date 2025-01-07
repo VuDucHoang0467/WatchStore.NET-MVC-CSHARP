@@ -1,0 +1,61 @@
+/* site.css */
+.customize-watch {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+	.customize-watch h2 {
+		margin-bottom: 20px;
+		color: #007bff;
+		animation: text-focus-in 1s;
+	}
+
+	.customize-watch .card {
+		border: 1px solid #ddd;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s;
+	}
+
+		.customize-watch .card:hover {
+			transform: scale(1.05);
+		}
+
+	.customize-watch .card-header {
+		background-color: #f8f9fa;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.customize-watch .card-title {
+		margin: 0;
+		font-size: 1.25rem;
+		color: #343a40;
+	}
+
+	.customize-watch .form-group {
+		margin-bottom: 1rem;
+	}
+
+	.customize-watch .btn {
+		background-color: #007bff;
+		border-color: #007bff;
+		color: white;
+		transition: background-color 0.3s, border-color 0.3s;
+	}
+
+		.customize-watch .btn:hover {
+			background-color: #0056b3;
+			border-color: #004085;
+		}
+
+@keyframes text-focus-in {
+	0% {
+		filter: blur(12px);
+		opacity: 0;
+	}
+
+	100% {
+		filter: blur(0);
+		opacity: 1;
+	}
+}

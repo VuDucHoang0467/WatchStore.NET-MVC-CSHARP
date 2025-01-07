@@ -1,0 +1,123 @@
+﻿@model CustomizeWatchViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Sản Phẩm</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .customize-watch {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .customize-watch h2 {
+            margin-bottom: 20px;
+            color: #007bff;
+            animation: text-focus-in 1s;
+        }
+
+        .customize-watch .card {
+            background-color: #f8f9fa;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .customize-watch .card:hover {
+            transform: scale(1.05);
+        }
+
+        .customize-watch .card-header {
+            background-color: #007bff;
+            border: none;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .customize-watch .card-title {
+            margin: 0;
+            font-size: 1.25rem;
+            color: #fff;
+        }
+
+        .customize-watch .card-body {
+            background-color: #fff;
+        }
+
+        .customize-watch .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .customize-watch .btn {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .customize-watch .btn:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+    </style>
+</head>
+<body>
+    <div class="customize-watch" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="text-center">@Model.Product.Name</h2>
+
+        <form asp-action="SaveCustomization" method="post" class="mt-4">
+            <input type="hidden" name="ProductId" value="@Model.Product.ProductId" />
+            @foreach (var part in Model.Parts)
+            {
+                <div class="card mb-3" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="card-header">
+                        <h3 class="card-title">@part.Name</h3>
+                    </div>
+                    <div class="card-body">
+                        @foreach (var option in Model.PartOptions.Where(o => o.PartId == part.PartId).GroupBy(o => o.OptionName))
+                        {
+                            <div class="form-group">
+                                <label class="font-weight-bold">@option.Key:</label>
+                                <select name="SelectedOptions[@part.PartId][@option.Key]" class="form-control">
+                                    @foreach (var opt in option)
+                                    {
+                                        <option value="@opt.PartOptionId">@opt.OptionValue</option>
+                                    }
+                                </select>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg animate__animated animate__pulse">Save Customization</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        $(document).ready(function(){
+            AOS.init();
+        });
+    </script>
+</body>
+</html>

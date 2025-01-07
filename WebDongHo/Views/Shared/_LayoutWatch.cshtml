@@ -1,0 +1,495 @@
+﻿
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Times Ticking'">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ogani | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="../SLayoutWatch/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../SLayoutWatch/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../SLayoutWatch/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../SLayoutWatch/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="../SLayoutWatch/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../SLayoutWatch/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../SLayoutWatch/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../SLayoutWatch/css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a asp-action="Index" asp-controller="Home"><img src="../SLayoutWatch/img/logotime123.jpg" alt=""></a>
+        </div>
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                
+            </ul>
+            <div class="header__cart__price">item: <span>$150.00</span></div>
+        </div>
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__language">
+                <img src="../SLayoutWatch/img/language.png" alt="">
+                <div>English</div>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                    <li><a href="#">Vietnamese</a></li>
+                    <li><a href="#">English</a></li>
+                </ul>
+            </div>
+            <div class="header__top__right__auth">
+                @* <a href="#"><i class="fa fa-user"></i> Login</a> *@
+                <a asp-controller="Access" asp-action="Logout"><i class="fa fa-user"></i> Logout</a>
+            </div>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html">Trang chủ</a></li>
+                <li><a href="./shop-grid.html">Sản phẩm</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+        <div class="humberger__menu__contact">
+            <ul>
+                <li><i class="fa fa-envelope"></i> hello@timesticking.com</li>
+                <li>Giao hàng miễn phí cho mọi đơn hàng</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Humberger End -->
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i> hello@timesticking.com</li>
+                                <li>Giao hàng miễn phí cho mọi đơn hàng</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                            <div class="header__top__right__language">
+                                <img src="../SLayoutWatch/img/language.png" alt="">
+                                <div>Vietnamese</div>
+                                <span class="arrow_carrot-down"></span>
+                                <ul>
+                                    <li><a href="#">Vietnamese</a></li>
+                                    <li><a href="#">English</a></li>
+                                </ul>
+                            </div>
+                            @if (Context.User.Identity.IsAuthenticated){
+                                <div class="header__top__right__auth">
+                                    <p>Xin chào, @User.Identity.Name</p>
+                                        <a asp-controller="Account" asp-action="Profile"><i class="fa fa-user"></i> Tài khoản</a>
+                                    <a asp-action="LogoutGoogle" asp-controller="Access"> Đăng xuất</a>
+                                </div>
+                            }else
+                            {
+                                <div class="header__top__right__auth">
+                                    <a asp-controller="Account" asp-action="Profile"><i class="fa fa-user"></i> Tài khoản</a>
+                                </div>
+                                <div class="header__top__right__auth">
+                                    <a asp-controller="Access" asp-action="Logout"><i class="fa fa-user"></i> Đăng xuất</a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a asp-action="Index" asp-controller="Home"><img src="../SLayoutWatch/img/logotime123.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                            <li><a asp-controller="Home" asp-action="Index">Sản phẩm</a></li>
+                            <li><a asp-controller="Home" asp-action="Index">Blog</a></li>
+                            <li><a asp-controller="Home" asp-action="Index">Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header__cart">
+                        <ul>
+                            <li><a asp-action="Index" asp-controller="ShoppingCart"><i class="fa fa-shopping-bag"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                @await Component.InvokeAsync("CategoryMenu")
+                <div class="col-lg-9">
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form asp-controller="Home" asp-action="Index" method="post">
+                                <input type="text" name="keyword" placeholder="Bạn cần mua đồng hồ gì?">
+                                <button type="submit" class="site-btn">Tìm kiếm</button>
+                            </form>
+                        </div>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>+84 908156116</h5>
+                                <span>hỗ trợ 24/7</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__item set-bg" data-setbg="../SLayoutWatch/img/hero/rolex-banner-bck.jpg">
+                        <div class="hero__text">
+                            <span>LUXURY WATCH</span>
+                            <h2 style="color: white; font-family: Arial, Helvetica, sans-serif">Đồng hồ <br />Cao cấp</h2>
+                            <p>Giao hàng miễn phí tận nơi</p>
+                            <a href="#" class="primary-btn">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    <!-- Categories Section Begin -->
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="categories__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="../SLayoutWatch/img/categories/run-rolex1.png">
+                            <h5><a href="@Url.Action("SanPhamTheoBrand", "Home", new { brandId = 1 })">Rolex</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="../SLayoutWatch/img/categories/run-omega1.png">
+                            <h5><a href="@Url.Action("SanPhamTheoBrand", "Home", new { brandId = 2 })">Omega</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="../SLayoutWatch/img/categories/run-hublot1.png">
+                            <h5><a href="@Url.Action("SanPhamTheoBrand", "Home", new { brandId = 3 })">Hublot</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="../SLayoutWatch/img/categories/run-seiko1.png">
+                            <h5><a href="@Url.Action("SanPhamTheoBrand", "Home", new { brandId = 4 })">Seiko</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="../SLayoutWatch/img/categories/run-tissot1.png">
+                            <h5><a href="@Url.Action("SanPhamTheoBrand", "Home", new { brandId = 6 })">Tissot</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories Section End -->
+    <!-- Featured Section Begin -->
+    <section class="featured spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Tất cả sản phẩm</h2>
+                    </div>                  
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <button class="btn btn-primary" id="filterButton">Lọc theo giá</button>
+                        <div id="filterForm" style="display: none;">
+                            <form asp-controller="Home" asp-action="FilterByPrice" method="post">
+                                <div class="form-group">
+                                    <label for="minPrice">Giá thấp nhất:</label>
+                                    <input type="number" class="form-control" id="minPrice" name="minPrice" placeholder="Nhập giá thấp nhất">
+                                </div>
+                                <div class="form-group">
+                                    <label for="maxPrice">Giá cao nhất:</label>
+                                    <input type="number" class="form-control" id="maxPrice" name="maxPrice" placeholder="Nhập giá cao nhất">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Lọc</button>
+                            </form>
+                        </div>
+                        <button class="btn btn-primary" id="filterByBrandButton">Lọc theo thương hiệu</button>
+                        <div id="filterByBrandForm" style="display: none;">
+                            <form asp-controller="Home" asp-action="FilterByBrand" method="post">
+                                <div class="form-group">
+                                    <label for="brandId">Chọn thương hiệu:</label>
+                                    <select class="form-control" id="brandId" name="brandId">
+                                        <option value="1">Rolex</option>
+                                        <option value="2">Omega</option>
+                                        <option value="3">Hublot</option>
+                                        <option value="4">Seiko</option>
+                                        <option value="5">Longines</option>
+                                        <option value="6">Tissot</option>
+                                        <option value="7">Cartier</option>
+                                        <option value="8">Citizen</option>
+                                        <option value="9">Casio</option>
+                                        <option value="10">Doxa</option>
+                                        <option value="11">Orient</option>
+                                        <option value="12">Fossil</option>
+                                        <option value="13">Huawei</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Lọc</button>
+                            </form>
+                        </div>
+                        <button class="btn btn-primary" id="sortByPriceAscButton">Giá tăng dần</button>
+                        <button class="btn btn-primary" id="sortByPriceDescButton">Giá giảm dần</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row featured__filter">
+                @RenderBody()
+            </div>
+        </div>
+    </section>
+    <!-- Featured Section End -->
+    <!-- Banner Begin -->
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="../SLayoutWatch/img/banner/hublot-banner.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="../SLayoutWatch/img/banner/banneromega.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+    <!-- Latest Product Section Begin -->
+    <!-- Latest Product Section End -->
+    <!-- Blog Section Begin -->
+    <section class="from-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title from-blog__title">
+                        <h2>From The Blog</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="../SLayoutWatch/img/banner/automatic.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> 12/04/2019</li>
+                            </ul>
+                            <h5><a asp-action="SDDongHoCo" asp-controller="Blog">Đồng hồ cơ là gì? Cách sử dụng, bảo quản đồng hồ Automatic đúng cách</a></h5>
+                            <p>
+                                Hiện nay có rất nhiều người yêu thích và đam mê những chiếc đồng hồ cơ có khả năng hoạt động bền bỉ trong lâu dài. Nhưng không phải ai cũng biết cách sử dụng và bảo quản đồng hồ đúng đắn.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="../SLayoutWatch/img/banner/banner_thuvi.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                            </ul>
+                            <h5><a asp-action="SDDongHoCo3" asp-controller="Blog">Những sự thật thú vị về đồng hồ. Có thể bạn chưa biết?</a></h5>
+                            <p>Đồng hồ đã trở thành một phụ kiện không thể thiếu trong cuộc sống hiện đại. Những chiếc đồng hồ không đơn thuần chỉ là cổ máy thời gian mà còn là công cụ hỗ trợ đắt lực, là món trang sức thể hiện phong cách cá nhân. Tuy nhiên, bạn có biết rằng đồng hồ còn có những sự thật thú vị đằng sau chúng mà không phải ai cũng biết?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="../SLayoutWatch/img/banner/donghoradoi.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> 13/04/2019</li>
+                            </ul>
+                            <h5><a asp-action="SDDongHoCo2" asp-controller="Blog">Đồng hồ ra đời khi nào? Tóm tắt lịch sử hình thành và phát triển của đồng hồ</a></h5>
+                            <p>Đồng hồ hiện nay đã trở thành một trong những phụ kiện thời trang phổ biến. Vậy đồng hồ đeo tay ra đời năm nào? Bài viết dưới đây sẽ sơ lược cho các bạn về lịch sử hình thành và phát triển của đồng hồ.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a asp-action="Index" asp-controller="Home"><img src="../SLayoutWatch/img/logotime123.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Địa chỉ: Khu công nghệ cao, P.Hiệp Phú, Quận 9, TP.HCM</li>
+                            <li>Phone: +84 123456789</li>
+                            <li>Email: hello@timesticking.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Useful Links</h6>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">About Our Shop</a></li>
+                            <li><a href="#">Secure Shopping</a></li>
+                            <li><a href="#">Delivery infomation</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Our Sitemap</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Innovation</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>Join Our Newsletter Now</h6>
+                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <form action="#">
+                            <input type="text" placeholder="Enter your mail">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made by <i class="fa fa-heart" aria-hidden="true"></i> Time's Ticking
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                        <div class="footer__copyright__payment"><img src="../SLayoutWatch/img/payment-item.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Js Plugins -->
+    <script src="../SLayoutWatch/js/jquery-3.3.1.min.js"></script>
+    <script src="../SLayoutWatch/js/bootstrap.min.js"></script>
+    <script src="../SLayoutWatch/js/jquery.nice-select.min.js"></script>
+    <script src="../SLayoutWatch/js/jquery-ui.min.js"></script>
+    <script src="../SLayoutWatch/js/jquery.slicknav.js"></script>
+    <script src="../SLayoutWatch/js/mixitup.min.js"></script>
+    <script src="../SLayoutWatch/js/owl.carousel.min.js"></script>
+    <script src="../SLayoutWatch/js/main.js"></script>
+    <script>
+        document.getElementById('filterButton').addEventListener('click', function () {
+            var filterForm = document.getElementById('filterForm');
+            if (filterForm.style.display === 'none') {
+                filterForm.style.display = 'block';
+            } else {
+                filterForm.style.display = 'none';
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var filterByBrandForm = document.getElementById("filterByBrandForm");
+            document.getElementById("filterByBrandButton").addEventListener("click", function () {
+                if (filterByBrandForm.style.display === "block") {
+                    filterByBrandForm.style.display = "none";
+                } else {
+                    filterByBrandForm.style.display = "block";
+                }
+            });
+            document.getElementById("filterSubmitButton").addEventListener("click", function () {
+                var brandId = document.getElementById("brandId").value;
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("sortByPriceAscButton").addEventListener("click", function () {
+                window.location.href = "/Home/SortByPriceAscending";
+            });
+            document.getElementById("sortByPriceDescButton").addEventListener("click", function () {
+                window.location.href = "/Home/SortByPriceDescending";
+            });
+        });
+    </script>
+
+</body>
+
+</html>

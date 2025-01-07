@@ -1,0 +1,64 @@
+﻿@using WebDongHo.Models;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<Category>
+
+@{
+    ViewData["Title"] = "DanhMucLoai";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h2>Danh Mục Loại</h2>
+
+<p>
+    <a asp-action="ThemLoai">Create New</a>
+</p>
+<p>
+    @TempData["Message"]
+</p>
+<table class="table">
+    <thead>
+        <tr class="table-warning">
+            <th>
+                Tên Loại
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="table-success">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <a asp-action="SuaLoai" asp-route-categoryId="@item.CategoryId">Edit</a> |
+                    <a asp-action="XemChiTietLoai" asp-route-categoryId="@item.CategoryId">Details</a> |
+                    <a asp-action="XoaLoai" asp-route-categoryId="@item.CategoryId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="pagination-container">
+    <ul class="pagination">
+        @if (Model.HasPreviousPage)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("DanhMucLoai", new { page = Model.PageNumber - 1 })">Previous</a>
+            </li>
+        }
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("DanhMucLoai", new { page = i })">@i</a>
+            </li>
+        }
+        @if (Model.HasNextPage)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("DanhMucLoai", new { page = Model.PageNumber + 1 })">Next</a>
+            </li>
+        }
+    </ul>
+</div>

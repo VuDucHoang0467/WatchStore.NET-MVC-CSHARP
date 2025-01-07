@@ -1,0 +1,47 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebDongHo.Models.DiscountCode
+
+@{
+    ViewData["Title"] = "ThemCoupon";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Thêm Mã Giảm Giá</h1>
+
+<h4>Coupon</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="ThemCoupon">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Code" class="control-label"></label>
+                <input asp-for="Code" class="form-control" />
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DisPercentage" class="control-label"></label>
+                <input asp-for="DisPercentage" class="form-control" />
+                <span asp-validation-for="DisPercentage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsageLimit" class="control-label"></label>
+                <input asp-for="UsageLimit" class="form-control" />
+                <span asp-validation-for="UsageLimit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExpiryDate" class="control-label"></label>
+                <input asp-for="ExpiryDate" class="form-control" />
+                <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="DanhMucCoupon" class="btn btn-secondary">Back to List</a>
+</div>
+

@@ -1,0 +1,1897 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebDongHo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebDongHo.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\.gitignore",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\LICENSE",
+      "PackagePath": "staticwebassets\\LayoutAdmin"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\PSD\\Purple_dashboard_free.psd",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\PSD\\Purple_dashboard_free.psd"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\README.md",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\circle.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.svg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_1.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_2.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_3.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_4.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-1.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-1.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-2.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-2.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-3.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-3.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-4.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-4.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\hoang1.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\hoang1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\blue.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\blue.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\dark.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\dark.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\flag.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\flag.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\green.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\green.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\jsgrid-icons.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\jsgrid-icons.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\red.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\red.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\yellow.png",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\yellow.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\js\\misc.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\misc.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\js\\todo.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\todo.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\todolist.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_dashboard.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\_widget-grid.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_widget-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_preview.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_preview.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_todo-list.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_todo-list.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_background.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_popovers.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_popovers.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_text.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\css\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\css\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\gulp-tasks\\inject.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\gulp-tasks\\inject.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\gulp-tasks\\serve.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\gulp-tasks\\serve.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\gulp-tasks\\vendors.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\gulp-tasks\\vendors.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\gulpfile.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\index.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\package.json",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\samples\\blank-page.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\blank-page.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\samples\\error-404.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\error-404.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\samples\\error-500.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\error-500.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\LayoutAdmin\\screenshot.jpg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\screenshot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\css\\site.css",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\css\\style.css",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Cartier1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Cartier1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Cartier2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Cartier2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Cartier3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Cartier3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Cartier4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Cartier4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Casio2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Casio2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Casio3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Casio3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Citizen1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Citizen1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Citizen2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Citizen2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Citizen3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Citizen3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Citizen4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Citizen4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Fossil1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Fossil1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Huawei1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Huawei1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Hublot1.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Hublot1.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Hublot2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Hublot2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Hublot3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Hublot3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Hublot4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Hublot4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Longines1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Longines1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Longines2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Longines2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Longines3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Longines3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Longines4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Longines4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\OMEGA1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\OMEGA1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\OMEGA2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\OMEGA2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\OMEGA3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\OMEGA3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\OMEGA4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\OMEGA4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\OmegaDeVillePrestigeCo-Axial.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\OmegaDeVillePrestigeCo-Axial.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Orient1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Orient1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Orient2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Orient2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Orient3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Orient3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Orient4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Orient4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\ROLEX2.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\ROLEX2.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\ROLEX3.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\ROLEX3.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\ROLEX4.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\ROLEX4.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Rolex1.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Rolex1.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Seiko1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Seiko1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Tissot1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Tissot1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Tissot2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Tissot2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Tissot3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Tissot3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\Tissot4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\Tissot4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\cartiersantos1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\cartiersantos1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\cartiersantos2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\cartiersantos2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\cartiersantos3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\cartiersantos3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\cartiersantos4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\cartiersantos4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\cartiertanksolo1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\cartiertanksolo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\cartiertanksolo2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\cartiertanksolo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\cartiertanksolo3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\cartiertanksolo3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\cartiertanksolo4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\cartiertanksolo4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\casiogshock1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\casiogshock1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\casiogshock2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\casiogshock2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\casiogshock3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\casiogshock3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\casiogshock4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\casiogshock4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizenecodrivechronograph1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizenecodrivechronograph1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizenecodrivechronograph2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizenecodrivechronograph2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizenecodrivechronograph3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizenecodrivechronograph3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizenecodrivechronograph4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizenecodrivechronograph4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizensilhouette1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizensilhouette1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizensilhouette2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizensilhouette2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizensilhouette3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizensilhouette3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizensilhouette4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizensilhouette4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizenwomen1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizenwomen1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizenwomen2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizenwomen2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizenwomen3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizenwomen3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\citizenwomen4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\citizenwomen4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\doxasharkhunter1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\doxasharkhunter1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\doxasharkhunter2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\doxasharkhunter2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\doxasharkhunter3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\doxasharkhunter3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\doxasharkhunter4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\doxasharkhunter4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\fossiljacqueline1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\fossiljacqueline1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\fossiljacqueline2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\fossiljacqueline2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\fossiljacqueline3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\fossiljacqueline3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\fossiljacqueline4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\fossiljacqueline4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\huaweiwatch1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\huaweiwatch1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\huaweiwatch2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\huaweiwatch2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\huaweiwatch3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\huaweiwatch3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\huaweiwatch4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\huaweiwatch4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\hublotbigbangunico1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\hublotbigbangunico1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\hublotbigbangunico2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\hublotbigbangunico2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\hublotbigbangunico3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\hublotbigbangunico3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\hublotbigbangunico4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\hublotbigbangunico4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\hublotclassicfusion1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\hublotclassicfusion1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\hublotclassicfusion2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\hublotclassicfusion2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\hublotclassicfusion3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\hublotclassicfusion3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\hublotclassicfusion4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\hublotclassicfusion4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\longineshydro1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\longineshydro1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\longineshydro2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\longineshydro2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\longineshydro3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\longineshydro3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\longineshydro4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\longineshydro4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\longinesmaster1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\longinesmaster1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\longinesmaster2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\longinesmaster2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\longinesmaster3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\longinesmaster3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\longinesmaster4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\longinesmaster4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\omegadevilleprestige1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\omegadevilleprestige1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\omegadevilleprestige2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\omegadevilleprestige2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\omegadevilleprestige3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\omegadevilleprestige3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\omegadevilleprestige4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\omegadevilleprestige4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\omegaspeed1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\omegaspeed1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\omegaspeed2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\omegaspeed2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\omegaspeed3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\omegaspeed3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\omegaspeed4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\omegaspeed4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\orientbambino1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\orientbambino1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\orientbambino2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\orientbambino2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\orientbambino3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\orientbambino3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\orientbambino4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\orientbambino4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\rolexcllinitime1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\rolexcllinitime1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\rolexcllinitime2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\rolexcllinitime2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\rolexcllinitime3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\rolexcllinitime3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\rolexcllinitime4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\rolexcllinitime4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\rolexcosmograph1.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\rolexcosmograph1.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\rolexcosmograph2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\rolexcosmograph2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\rolexcosmograph3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\rolexcosmograph3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\rolexcosmograph4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\rolexcosmograph4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\seikopresagecocktailtime1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\seikopresagecocktailtime1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\seikopresagecocktailtime2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\seikopresagecocktailtime2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\seikopresagecocktailtime3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\seikopresagecocktailtime3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\seikopresagecocktailtime4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\seikopresagecocktailtime4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\seikoprospex1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\seikoprospex1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\seikoprospex2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\seikoprospex2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\seikoprospex3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\seikoprospex3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\seikoprospex4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\seikoprospex4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\tissottclassiclelocle1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\tissottclassiclelocle1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\tissottclassiclelocle2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\tissottclassiclelocle2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\tissottclassiclelocle3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\tissottclassiclelocle3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\tissottclassiclelocle4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\tissottclassiclelocle4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\tissottsportprs1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\tissottsportprs1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\tissottsportprs2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\tissottsportprs2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\tissottsportprs3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\tissottsportprs3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\anhsanpham\\tissottsportprs4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\anhsanpham\\tissottsportprs4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\banner\\automatic.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\banner\\automatic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\banner\\banner_thuvi.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\banner\\banner_thuvi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\banner\\banneromega.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\banner\\banneromega.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\banner\\donghoradoi.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\banner\\donghoradoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\banner\\hublot-banner.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\banner\\hublot-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\bannerdongho.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\bannerdongho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\details\\bannerdongho123.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\details\\bannerdongho123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\details\\details-author.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\details\\details-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\details\\details-hero.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\details\\details-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\details\\details-pic.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\details\\details-pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\sidebar\\sr-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\sidebar\\sr-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\sidebar\\sr-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\sidebar\\sr-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\blog\\sidebar\\sr-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\blog\\sidebar\\sr-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\breadcrumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\cart\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\cart\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\cart\\cart-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\casio1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\casio1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\casio4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\casio4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\cat-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\run-hublot1.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\run-hublot1.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\run-omega1.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\run-omega1.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\run-rolex.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\run-rolex.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\run-rolex1.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\run-rolex1.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\run-seiko1.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\run-seiko1.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\categories\\run-tissot1.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\categories\\run-tissot1.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\citizensilhouette1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\citizensilhouette1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\citizenwomen1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\citizenwomen1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\data-server.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\data-server.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\dong-ho-rolex-cellini-time-50509-0016-mat-so-trang-day-deo-da-39mm-5.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\dong-ho-rolex-cellini-time-50509-0016-mat-so-trang-day-deo-da-39mm-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\doxa1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\doxa1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\doxa2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\doxa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\doxa3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\doxa3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\doxa4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\doxa4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\featured\\feature-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\featured\\feature-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\featured\\feature-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\featured\\feature-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\featured\\feature-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\featured\\feature-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\featured\\feature-4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\featured\\feature-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\featured\\feature-5.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\featured\\feature-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\featured\\feature-6.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\featured\\feature-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\featured\\feature-7.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\featured\\feature-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\featured\\feature-8.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\featured\\feature-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\hero\\BST-dong-ho-nu-ban-chay.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\hero\\BST-dong-ho-nu-ban-chay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\hero\\banner.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\hero\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\hero\\rolex-banner-bck.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\hero\\rolex-banner-bck.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\hiring.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\hiring.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\hoarahloux.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\hoarahloux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\hublotclassicfusion1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\hublotclassicfusion1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\language.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\language.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\latest-product\\lp-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\latest-product\\lp-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\latest-product\\lp-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\latest-product\\lp-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\latest-product\\lp-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\latest-product\\lp-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\logo.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\logotime123.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\logotime123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\logotime123.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\logotime123.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\omegaspeed1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\omegaspeed1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\payment-item.png",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\payment-item.png"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\details\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\details\\product-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\details\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\details\\product-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\details\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\details\\product-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\details\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\details\\product-details-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\details\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\details\\product-details-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\details\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\details\\thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\details\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\details\\thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\details\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\details\\thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\details\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\details\\thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\discount\\pd-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\discount\\pd-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\discount\\pd-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\discount\\pd-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\discount\\pd-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\discount\\pd-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\discount\\pd-4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\discount\\pd-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\discount\\pd-5.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\discount\\pd-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\discount\\pd-6.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\discount\\pd-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\seiko3.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\seiko3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\seiko4.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\seiko4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\seikoprospex1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\seikoprospex1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\img\\tissottsportprs1.jpg",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\img\\tissottsportprs1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\js\\main.js",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\SLayoutWatch\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\SLayoutWatch\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\images\\wooting.jpg",
+      "PackagePath": "staticwebassets\\images\\wooting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\84988\\source\\repos\\WebDongHo\\WebDongHo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebDongHo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebDongHo.props",
+      "PackagePath": "build\\WebDongHo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebDongHo.props",
+      "PackagePath": "buildMultiTargeting\\WebDongHo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebDongHo.props",
+      "PackagePath": "buildTransitive\\WebDongHo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

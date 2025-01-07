@@ -1,0 +1,108 @@
+﻿@model Order
+
+@{
+    ViewData["Title"] = "Order Detail";
+    Layout = "~/Views/Shared/_LayoutAccount.cshtml";
+}
+
+<div class="container my-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h1 class="mb-0">Chi tiết đơn hàng</h1>
+        </div>
+        <div class="card-body">
+            <h3 class="text-primary">Thông tin đơn hàng</h3>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <p><strong>Mã đơn hàng:</strong> @Model.Id</p>
+                    <p><strong>Ngày đặt hàng:</strong> @Model.OrderDate</p>
+                    <p><strong>Tổng cộng:</strong> @String.Format("{0:N0} VNĐ", Model.TotalPrice)</p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <strong>Trạng thái:</strong>
+                        @if (Model.Status == 1)
+                        {
+                            <span class="badge badge-warning">Đã giao hàng</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-success">Đã đặt hàng</span>
+                        }
+                    </p>
+                    <p><strong>Ngày nhận hàng:</strong> @Model.ReceiveTime?.ToString("dd/MM/yyyy")</p>
+                    <p><strong>Phương thức thanh toán:</strong> @Model.PaymentMethod</p>
+                    <p><strong>Thời gian thanh toán:</strong> @Model.PaymentTime</p>
+                </div>
+            </div>
+
+            <h6 class="text-primary">Chi tiết đơn hàng</h6>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Số lượng</th>
+                            <th>Giá</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var detail in Model.OrderDetails)
+                        {
+                            <tr>
+                                <td>@detail.Product.Name</td>
+                                <td>@detail.Quantity</td>
+                                <td>@String.Format("{0:N0} VNĐ", detail.Price)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        border-width: 2px;
+    }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+    .card-header {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .card-body h3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+
+    .table {
+        margin-top: 1rem;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .badge-warning {
+        background-color: #ffc107;
+    }
+
+    .badge-success {
+        background-color: #28a745;
+    }
+
+    .shadow-lg {
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    }
+</style>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">

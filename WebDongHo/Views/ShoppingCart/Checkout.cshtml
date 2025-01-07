@@ -1,0 +1,151 @@
+﻿@inject Microsoft.Extensions.Configuration.IConfiguration Configuration
+
+@model Order
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_LayoutCheckout.cshtml";
+}
+
+<style>
+    .checkout {
+        padding: 60px 0;
+    }
+
+    .checkout__form h4 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .checkout__form label {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .checkout__form .form-control {
+        border: 1px solid #ced4da;
+        padding: 12px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+        .checkout__form .form-control:focus {
+            border-color: #007bff;
+            box-shadow: none;
+        }
+
+    .checkout__form button.site-btn {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .checkout__form button.site-btn:hover {
+            background-color: #0056b3;
+        }
+
+    .checkout__order {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+        .checkout__order h4 {
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .checkout__order ul {
+            list-style: none;
+            padding: 0;
+        }
+
+            .checkout__order ul li {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+
+                .checkout__order ul li span {
+                    font-weight: bold;
+                }
+
+        .checkout__order button {
+            margin-top: 15px;
+        }
+</style>
+
+<section class="checkout spad">
+    <div class="container">
+        <div class="checkout__form">
+            <h4>Billing Details</h4>
+            <form asp-action="Checkout" asp-controller="ShoppingCart" method="post">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <label asp-for="FirstName">First Name</label>
+                                    <input asp-for="FirstName" class="form-control" type="text" id="firstName" name="firstName" required />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="checkout__input">
+                                    <label asp-for="LastName">Last Name</label>
+                                    <input asp-for="LastName" class="form-control" type="text" id="lastName" name="lastName" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout__input">
+                            <label asp-for="ShippingAddress">Shipping Address</label>
+                            <input asp-for="ShippingAddress" placeholder="Detailed address" class="form-control" type="text" id="shippingAddress" name="shippingAddress" required />
+                        </div>
+                        <div class="checkout__input">
+                            <label asp-for="Email">Email Address</label>
+                            <input asp-for="Email" class="form-control" type="email" id="email" name="email" required />
+                        </div>
+                        <div class="checkout__input">
+                            <label asp-for="Phone">Phone Number</label>
+                            <input asp-for="Phone" class="form-control" type="text" id="phone" name="phone" required />
+                        </div>
+                        <div class="checkout__input">
+                            <label asp-for="Notes">Order Notes</label>
+                            <textarea asp-for="Notes" placeholder="Notes about your order, e.g., special instructions for delivery." class="form-control" id="notes" name="notes"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="checkout__order">
+                            <h4>Order Method</h4>
+                            <ul>
+                                @foreach (var item in Model.OrderDetails)
+                                {
+                                    <li>@item.Product.Name <span>@item.Quantity</span></li>
+                                }
+                            </ul>
+                            <button type="submit" name="paymentMethod" value="COD" class="site-btn">Cash on Delivery</button>
+                            <button type="submit" name="paymentMethod" value="paypal" class="site-btn">Pay with PayPal</button>
+                            <button type="submit" name="paymentMethod" value="momo" class="site-btn">Pay with Momo</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script>
+    function uncheckOther(checkbox) {
+        var checkboxes = document.getElementsByName("paymentMethod");
+        checkboxes.forEach(function (item) {
+            if (item !== checkbox) item.checked = false;
+        });
+    }
+</script>
